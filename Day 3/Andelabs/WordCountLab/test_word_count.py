@@ -1,7 +1,10 @@
-import unittest
-from word_count import word_counter
+#!/usr/bin/env python
+# encoding: utf-8
 
-class TestWordCounts(TestCase):
+import unittest
+from word_count import words
+
+class TestWordCounts(unittest.TestCase):
 
     """
         Counts the occurrences or characters in a word
