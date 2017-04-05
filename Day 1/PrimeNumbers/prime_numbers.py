@@ -4,7 +4,7 @@
 def generate_primes(n):
     if isinstance(n, int):
         primes_list = list()
-        for number in range(1,n+1):
+        for number in range(2,n+1):
             prime = True
             for i in range(2, number):
                 if (number % i == 0):
