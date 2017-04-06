@@ -1,0 +1,81 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	text-align: center;
+	font-family: arial, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+/* Change the link color to #111 (black) on hover */
+.active, li a:hover {
+	color: black;
+	text-decoration: underline;
+    text-underline-position: bottom;
+}
+
+.center {
+    margin: auto;
+    padding: auto;
+}
+
+.google_input_area {
+	height: 34px;
+	width: 40%;
+	margin: 20px;
+	border-radius: 1px;
+}
+
+#top-space {
+	margin-top: 10%;
+}
+
+.float-right li {
+	float: right;
+}
+
+.float-left{
+	float: left;
+}
+
+.google_button {
+	padding: 10px 15px;
+	background-color: #fff;
+	border-radius: 5px;
+	text-decoration: bold;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    margin: 0 auto;
+    border-top: solid 1px grey;
+    color: grey;
+}
