@@ -3,47 +3,58 @@
 <head>
 	<title>Google - Recreated</title>
 
+	<meta charset="utf-8" lang="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/google_icon.png">
+
+	<link rel="stylesheet" type="text/css" href="custom_styles.css">
+
 </head>
 <body>
 	<header>
-		<nav>
-			<ul>
-				<li>Gmail</li>
-				<li>Images</li>
-				<li>Icon1</li>
-				<li>small_picture</li>
-			</ul>
-		</nav>
+		<div class="block-display">
+			<nav class="float-right">
+				<ul>
+					<li><a href="#">Small Picture</a></li>
+					<li><a href="#">Bell</a></li>
+					<li><a href="#">Icons1</a></li>
+					<li><a href="#">Images</a></li>
+					<li><a class = "active" href="#">Gmail</a></li>
+				</ul>
+			</nav>
+		</div>
 	</header>
-	<section>
-		<main>
-			<dir>
-				<img src="images/googlelogo_large.png" alt ="Google Logo">
-			</dir>
-			<dir>
-				<input type="text" name="data_query">
-			</dir>
+	<section class = "center" id = "top-space">
+		<main class = "center">
 			<div>
-				<button type="submit">Google Search</button>
-				<button>I'm Feeling Lucky</button>
+				<div class = "center">
+					<img src="images/googlelogo_large.png" alt ="Google Logo">
+				</div>
+			</div>
+			<div>
+				<input class="google_input_area" type="text" name="data_query" autofocus="true">
+			</div>
+			<div class ="center">
+				<button class = "google_button" type="submit">Google Search</button>
+				<button class = "google_button">I'm Feeling Lucky</button>
 			</div>
 		</main>
 	</section>
-	<footer>
+	<footer id="footer">
 		<div>
-			<div>
+			<div class = "float-left">
 				<ul>
-					<li>Advertising</li>
-					<li>Business</li>
-					<li>About</li>
+					<li><a href="#">Advertising</a></li>
+					<li><a href="#">Business</a></li>
+					<li><a href="#">About</a></li>
 				</ul>
 			</div>
-			<div>
+			<div class = "float-right">
 				<ul>
-					<li>Privacy</li>
-					<li>Terms</li>
-					<li>Settings</li>
-					<li>Use Google.co.ke</li>
+					<li><a href="#">Use Google.co.ke</a></li>
+					<li><a href="#">Settings</a></li>
+					<li><a href="#">Terms</a></li>
+					<li><a href="#">Privacy</a></li>
 				</ul>
 			</div>
 		</div>
